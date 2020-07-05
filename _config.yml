@@ -1,3 +1,11 @@
 remote_theme: pmarsceill/just-the-docs
 title: Vantibyte Docs
 description: Documentation on how to use Vantibyte solutions
+
+# Just-The-Docs config
+footer_content: "Copyright &copy; 2019-2020 Vantibyte."
+color_scheme: dark
+
+aux_links:
+  "Main Website":
+    - "//vantibyte.com"
