@@ -3,4 +3,6 @@ title: Home
 nav_order: 1
 ---
 
-There's not much here on the home page, check out the links on the left!
+Welcome to the documentation for Vantibyte services. Please select a service from the left for more details and information on how to use it.
+
+{% include note.hml type="info" content="This documentation is currently under construction. If there is particular information you would like to be covered here, let us know and we'll try to prioritise." %}
