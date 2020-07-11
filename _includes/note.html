@@ -1,0 +1,24 @@
+{% case include.type %}
+{%  when "note" %}
+{%    assign colour = "purple" %}
+{%    assign icon = "sticky-note" %}
+{%    assign word = "Note" %}
+{%  when "info" %}
+{%    assign colour = "blue" %}
+{%    assign icon = "info-circle" %}
+{%    assign word = "Info" %}
+{%  when "warn" %}
+{%    assign colour = "orange" %}
+{%    assign icon = "exclamation-triangle" %}
+{%    assign word = "Warning" %}
+{%  when "danger" %}
+{%    assign colour = "red" %}
+{%    assign icon = "times-circle" %}
+{%    assign word = "Danger" %}
+{%  else %}
+{%    assign colour = "whoops" %}
+{%  endcase %}
+<div markdown="span" class="note note-{{colour}}" role="alert">
+    <i class="fa fa-{{icon}}"></i> <b>{{word}}:</b>
+    {{ include.content }}
+</div>
