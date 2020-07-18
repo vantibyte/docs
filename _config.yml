@@ -2,6 +2,7 @@ remote_theme: pmarsceill/just-the-docs
 title: Vantibyte Docs
 description: Documentation on how to use Vantibyte solutions
 permalink: pretty
+exclude: ['./README.md']
 
 # Just-The-Docs config
 footer_content: "Copyright &copy; 2019-2020 Vantibyte"
