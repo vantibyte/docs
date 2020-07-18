@@ -2,6 +2,7 @@
 title: Changelog
 nav_order: 100
 has_children: true
+has_toc: false
 ---
 
 Welcome to the changelog. Here you can read about all the recent changes that have been made to each of the solutions
