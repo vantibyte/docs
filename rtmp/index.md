@@ -29,6 +29,29 @@ Stream Key: {streamname}:{streamauth}
 
 {% include note.html type="info" content="Don't worry about remembering this, we'll provide these to your exact requirements in the Dash" %}
 
+## For Uploaders / Streamers / Observers
+
+Configure your stream software as you normally would, but rather than streaming to a service such as Twitch or YouTube, select a Custom setting.
+Enter the server name and stream key as shown in the format above:
+![OBS Stream settings page, with the server name and stream key set](/assets/rtmp/obsstream.png)
+
+## For Viewers / Casters
+
+You can watch the stream in your preferred media player, so long as it supports RTMP streams! The most common client used for this purpose is VLC.
+Open a stream, and enter the URL in the following format:
+
+```text
+rtmp://{ingest}.rtmp.vantibyte.com/{application}/{streamname}
+```
+
+![VLC Media Player "Open Media" dialogue, with the stream URL entered](../assets/rtmp/vlcopenmedia.png)
+
+## For Producers
+
+You probably want to include this stream in your streaming software, to then be presented out to your audience. Similarly to the viewers section above, you can simply add this stream URL into your stream and have it show up like any other source - except it's likely coming a lot further away than another monitor!
+
+![OBS Media source settings, with the stream URL entered](../assets/rtmp/obsmediasource.png)
+
 ## Stream Settings and Bitrate
 
 We accept ingest in the same format as the popular livestream providers (Twitch, YouTube, etc) using H264 encoding. Similarly to them, streaming to us with particular resolution and bit rate settings is preferred.
