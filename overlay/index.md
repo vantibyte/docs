@@ -40,6 +40,18 @@ Each of the API endpoints will return the type of data and values as listed in t
 | Text Input          | textinput         | Text      | Text     | A completely free text input, for whatever your team decides |
 | Square Animation    | animationsquare   | Select    | Video    | An animation, usually square                                 |
 | Long Animation      | animationlong     | Select    | Video    | An animation, usually longer                                 |
+| Team One - player one Name   | playeroneteamonename   | Text | Text | The name of player one, team one   |
+| Team One - player two Name   | playertwoteamonename   | Text | Text | The name of player two, team one   |
+| Team One - player three Name | playerthreeteamonename | Text | Text | The name of player three, team one |
+| Team One - player four Name  | playerfourteamonename  | Text | Text | The name of player four, team one  |
+| Team One - player five Name  | playerfiveteamonename  | Text | Text | The name of player five, team one  |
+| Team One - player six Name   | playersixteamonename   | Text | Text | The name of player six, team one   |
+| Team Two - player one Name   | playeroneteamtwoname   | Text | Text | The name of player one, team two   |
+| Team Two - player two Name   | playertwoteamtwoname   | Text | Text | The name of player two, team two   |
+| Team Two - player three Name | playerthreeteamtwoname | Text | Text | The name of player three, team two |
+| Team Two - player four Name  | playerfourteamtwoname  | Text | Text | The name of player four, team two  |
+| Team Two - player five Name  | playerfiveteamtwoname  | Text | Text | The name of player five, team two  |
+| Team Two - player six Name   | playersixteamtwoname   | Text | Text | The name of player six, team two   |
 
 {% include note.html type="note" content="Game Logos are provided for your convinience. If you need a logo that is not currently available, let us know!" %}
 
