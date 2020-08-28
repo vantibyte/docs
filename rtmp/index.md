@@ -16,15 +16,15 @@ To stream to our service, you need to have each of the following:
 | Ingest Server      | The server you stream to, we provide this for you      |
 | Stream Application | The path you stream to, we provide this too            |
 | Stream Name        | The name of the stream, which must be unique           |
-| Stream Key         | A secret key allowing you to stream to this            |
+| Stream Auth        | A secret key allowing you to stream to this            |
 
-{% include note.html type="note" content="In our current phase, all of the details above will be provided to you. Management of Stream Name/Keys will be part of Dash" %}
+{% include note.html type="note" content="In our current phase, all of the details above will be provided to you. Management of Stream Name/Keys will be part of Dash in the future" %}
 
 Invidually these don't mean much, but altogether these form the **Server** and **Stream Key** that you need for your broadcasting tool (like OBS), which will look like the following:
 
 ```text
 Server: rtmp://{ingest}.rtmp.vantibyte.com/{application}/
-Stream Key: {streamname}:{streamkey}
+Stream Key: {streamname}:{streamauth}
 ```
 
 {% include note.html type="info" content="Don't worry about remembering this, we'll provide these to your exact requirements in the Dash" %}
