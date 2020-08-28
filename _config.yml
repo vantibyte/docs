@@ -11,3 +11,11 @@ color_scheme: dark
 aux_links:
   "Main Website":
     - "//vantibyte.com"
+
+# Set the vantibyte square logo as the standard for
+# Twitter Cards and OpenGraph links
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/vblogo.png
