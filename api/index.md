@@ -1,6 +1,7 @@
 ---
 title: API Reference
 nav_order: 99
+description: Vantibyte Documentation for the API response codes you might encounter
 ---
 
 If you're looking for details on how to use the API for a particular service, please check that service's page on the menu. The information presented below should be treated as reference only, and not part of any usage instructions.

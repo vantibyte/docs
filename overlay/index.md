@@ -1,6 +1,7 @@
 ---
 title: Overlay
 nav_order: 3
+description: Vantibyte Documentation for the Overlay solution
 ---
 
 The overlay is primarily used for stream overlays by providing "remote" production teams the ability to make changes to specific elements being shown on broadcast.
