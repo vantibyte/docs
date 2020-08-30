@@ -13,6 +13,8 @@ aux_links:
   "Main Website":
     - "//vantibyte.com"
 
+ga_tracking: UA-176823557-2
+
 # Set the vantibyte square logo as the standard for
 # Twitter Cards and OpenGraph links
 defaults:
