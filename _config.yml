@@ -1,5 +1,6 @@
 remote_theme: pmarsceill/just-the-docs
 title: Vantibyte Docs
+url: "https://docs.vantibyte.com"
 description: Documentation on how to use Vantibyte solutions
 permalink: pretty
 exclude: ['./README.md']
