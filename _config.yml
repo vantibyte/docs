@@ -6,7 +6,7 @@ permalink: pretty
 exclude: ['./README.md']
 
 # Just-The-Docs config
-footer_content: "Copyright &copy; 2019-2020 Vantibyte"
+footer_content: "Copyright &copy; Vantibyte"
 color_scheme: dark
 
 aux_links:
