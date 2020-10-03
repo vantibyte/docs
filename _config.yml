@@ -12,6 +12,8 @@ color_scheme: dark
 aux_links:
   "Main Website":
     - "//vantibyte.com"
+  "Contact Us":
+    - "//vantibyte.com/contact/"
 
 ga_tracking: UA-176823557-2
 
