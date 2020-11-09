@@ -18,6 +18,7 @@ Our well intentioned - and uncreatively named - helper. VantiBot provides servic
 | `.link` | Everyone              | Provides the discord invite link                                        |
 | `.docs` | Everyone              | Provides a link to these docs, sublinks listed [below](#docs)           |
 | `.web`  | Everyone              | Provides a link to the Vantibyte website, sublinks listed [below](#web) |
+| `.priv` | Everyone              | Creates a private channel for yourself and staff members                |
 
 ## Page Sublinks
 
