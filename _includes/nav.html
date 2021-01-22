@@ -11,6 +11,7 @@
     {%- assign pages_list = sorted_ordered_pages_list | concat: sorted_unordered_pages_list -%}
     {%- for node in pages_list -%}
       {%- unless node.nav_exclude -%}
+        {% if (node.lang_code == page.lang_code or node.lang_code == nil) or (page.lang_code == nil and node.lang_code == 'en') %}
         {%- if node.parent == nil and node.title -%}
           <li class="nav-list-item{% if node.has_seperator %} seperator{% endif %}{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
             {%- if page.parent == node.title or page.grand_parent == node.title -%}
@@ -49,6 +50,7 @@
               </ul>
             {%- endif -%}
           </li>
+        {%- endif -%}
         {%- endif -%}
       {%- endunless -%}
     {%- endfor -%}
