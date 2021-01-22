@@ -37,3 +37,7 @@
     text-align: right;
     margin-right: 2em;
 }
+
+footer.site-footer::after {
+    content: "Customised by Vantibyte.";
+}
