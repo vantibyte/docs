@@ -55,3 +55,14 @@
       {%- endunless -%}
     {%- endfor -%}
   </ul>
+  {% if page.lang_ref != nil %}
+  <ul class="nav-list lang-list">
+    {% assign pages=site.pages | where:"lang_ref", page.lang_ref | sort: 'lang_code' %}
+    Languages
+    {% for item in pages %}
+      <li>
+        <a href="{{ item.url }}" class="{{ item.lang_code }}">{{ item.lang_code }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
