@@ -44,13 +44,13 @@ Open a stream, and enter the URL in the following format:
 rtmp://{ingest}.rtmp.vantibyte.com/{application}/{streamname}
 ```
 
-![VLC Media Player "Open Media" dialogue, with the stream URL entered](../assets/rtmp/vlcopenmedia.png)
+![VLC Media Player "Open Media" dialogue, with the stream URL entered](/assets/rtmp/vlcopenmedia.png)
 
 ## For Producers
 
 You probably want to include this stream in your streaming software, to then be presented out to your audience. Similarly to the viewers section above, you can simply add this stream URL into your stream and have it show up like any other source - except it's likely coming a lot further away than another monitor!
 
-![OBS Media source settings, with the stream URL entered](../assets/rtmp/obsmediasource.png)
+![OBS Media source settings, with the stream URL entered](/assets/rtmp/obsmediasource.png)
 
 ## Stream Settings and Bitrate
 

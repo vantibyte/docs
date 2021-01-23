@@ -24,3 +24,15 @@ defaults:
       path: ""
     values:
       image: /assets/vblogo.png
+  - scope:
+      path: "en"
+    values:
+      lang_code: en
+  - scope:
+      path: "fr"
+    values:
+      lang_code: fr
+  - scope:
+      path: "es"
+    values:
+      lang_code: es
