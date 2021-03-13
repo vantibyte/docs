@@ -29,7 +29,7 @@ Simply add these after the relevant command above, and get the right link.
 ### Docs
 
 | dash | overlay | video | solutions |
-| bitrate | rtmppub | rtmpplay | rtmpprod |
+| bitrate | videopub | videoplay | videoprod |
 
 ### Web
 
