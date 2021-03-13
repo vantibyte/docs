@@ -10,13 +10,13 @@ Our Video service allows you to easily transfer video feeds across the globe for
 
 To stream to our service, you need to have each of the following:
 
-| Thing              | Description                                            |
-| ------------------ | ------------------------------------------------------ |
-| Streaming Software | You need something to stream from, probably OBS Studio |
-| Ingest Server      | The server you stream to, we provide this for you      |
-| Stream Application | The path you stream to, we provide this too            |
-| Stream Name        | The name of the stream, which must be unique           |
-| Stream Auth        | A secret key allowing you to stream to this            |
+| Thing              | Description                                                                |
+| ------------------ | -------------------------------------------------------------------------- |
+| Streaming Software | You need something to stream from, probably OBS Studio, that supports RTMP |
+| Ingest Server      | The server you stream to, we provide this for you                          |
+| Stream Application | The path you stream to, we provide this too                                |
+| Stream Name        | The name of the stream, which must be unique                               |
+| Stream Auth        | A secret key allowing you to stream to this                                |
 
 {% include note.html type="note" content="In our current phase, all of the details above will be provided to you. Management of Stream Name/Keys will be part of Dash in the future" %}
 
@@ -31,7 +31,7 @@ Stream Key: {streamname}:{streamauth}
 
 ## For Uploaders / Streamers / Observers
 
-Configure your stream software as you normally would, but rather than streaming to a service such as Twitch or YouTube, select a Custom setting.
+Configure your stream software as you normally would, but rather than streaming to a service such as Twitch or YouTube, select a Custom setting. Our ingest uses the same RTMP protocol as the usual streaming services.
 Enter the server name and stream key as shown in the format above:
 ![OBS Stream settings page, with the server name and stream key set](/assets/video/obsstream.png)
 
@@ -54,7 +54,7 @@ You probably want to include this stream in your streaming software, to then be 
 
 ## Stream Settings and Bitrate
 
-We accept ingest in the same format as the popular livestream providers (Twitch, YouTube, etc) using H264 encoding. Similarly to them, streaming to us with particular resolution and bit rate settings is preferred.
+We accept ingest in the same format as the popular livestream providers (Twitch, YouTube, etc) using H264 encoding via RTMP. Similarly to them, streaming to us with particular resolution and bit rate settings is preferred.
 
 We do not provide specifics on full stream configuration (such as b-frames, encoding profiles, or similar) for some reasons:
 
