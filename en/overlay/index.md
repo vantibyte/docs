@@ -68,8 +68,6 @@ Each of the API endpoints will return the type of data and values as listed in t
 For `text` types, styling can be applied in the browser source to either `html` or `body` elements.  
 For `image` types, styling should be applied to the `img` element. By default, the image is simply returned at it's original size.
 
-## Uploading assets
+## Managing assets
 
-Assets to be used in the Select options can be uploaded via Dash.
-
-{% include note.html type="note" content="Managing assets is currently not supported" %}
+Assets to be used in the Select options can be uploaded via Dash, as well as deleted if no longer required.

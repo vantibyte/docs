@@ -3,6 +3,14 @@ title: Discord
 parent: Changelog
 ---
 
+## 2021-02-14
+
+Added the new `.teamcode` and `.team` commands, allowing team members to generate a single-use code that can be shared with others to gain access to their relevant channel, without requiring Vantibyte staff.
+
+## 2020-11-09
+
+Added the new `.priv` command, allowing users to generate a private channel to speak with Vantibyte staff. This is similar to "mod mail" features found elsewhere.
+
 ## 2020-07-19
 
 Our Discord has had a major reshuffle - there's now no public channels. This is in the interest of privacy for our customers! All relevant public channel information has been moved to the Docs pages.  
