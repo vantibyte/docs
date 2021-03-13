@@ -8,6 +8,10 @@ has_seperator: true
 
 Welcome to the changelog. Here you can read about all the recent changes that have been made to each of the solutions
 
+## 2021-03-13
+
+Updated the "note" boxes around the docs to a much more appropriate style.
+
 ## 2020-07-18
 
 We have a changelog! So you can read the changes about the changes to understand what was changed when we made the changes.  
