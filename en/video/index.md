@@ -1,10 +1,10 @@
 ---
-title: RTMP
+title: Video
 nav_order: 4
-description: Vantibyte Documentation for the RTMP solution
+description: Vantibyte Documentation for the Video solution
 ---
 
-Our RTMP service allows you to easily transfer video feeds across the globe for central production.
+Our Video service allows you to easily transfer video feeds across the globe for central production.
 
 ## Pre-requisites
 
@@ -33,7 +33,7 @@ Stream Key: {streamname}:{streamauth}
 
 Configure your stream software as you normally would, but rather than streaming to a service such as Twitch or YouTube, select a Custom setting.
 Enter the server name and stream key as shown in the format above:
-![OBS Stream settings page, with the server name and stream key set](/assets/rtmp/obsstream.png)
+![OBS Stream settings page, with the server name and stream key set](/assets/video/obsstream.png)
 
 ## For Viewers / Casters
 
@@ -44,13 +44,13 @@ Open a stream, and enter the URL in the following format:
 rtmp://{ingest}.rtmp.vantibyte.com/{application}/{streamname}
 ```
 
-![VLC Media Player "Open Media" dialogue, with the stream URL entered](/assets/rtmp/vlcopenmedia.png)
+![VLC Media Player "Open Media" dialogue, with the stream URL entered](/assets/video/vlcopenmedia.png)
 
 ## For Producers
 
 You probably want to include this stream in your streaming software, to then be presented out to your audience. Similarly to the viewers section above, you can simply add this stream URL into your stream and have it show up like any other source - except it's likely coming a lot further away than another monitor!
 
-![OBS Media source settings, with the stream URL entered](/assets/rtmp/obsmediasource.png)
+![OBS Media source settings, with the stream URL entered](/assets/video/obsmediasource.png)
 
 ## Stream Settings and Bitrate
 
