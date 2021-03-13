@@ -1,17 +1,20 @@
 ---
-title: RTMP
+title: Video
 parent: Roadmap
 ---
 
-### Authentication  
+### Examples for other software
 
-Specific authentication will be required for streaming to our platform, with the ability to manage the stream keys via Dash. This will achieve the following:
+Currently our documentation focuses on using OBS and VLC, other options are available and examples using some other software packages will be added
+
+### Feed Management  
+
+Specific authentication is required for streaming to our platform, with the ability to manage the stream keys coming soon to Dash. This will achieve the following:
 
 - Generate own named streams and key pairs via Dash
 - Ability to issue "temporary" keys and revoke these when done
 - Know exactly which streams are associated with your account
 - Know which streams are currently in use, or recently used
-- Protect the Vantibyte platform from potential abuse
 - Enable tracking and statistics (spoiler!)
 
 ### Tracking and statistics
