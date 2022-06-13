@@ -35,6 +35,8 @@ Configure your stream software as you normally would, but rather than streaming 
 Enter the server name and stream key as shown in the format above:
 ![OBS Stream settings page, with the server name and stream key set](/assets/video/obsstream.png)
 
+{% include note.html type="info" content="Make sure your Keyframe Interval is set to 2 seconds if you are using our synchronised playback" %}
+
 ## For Viewers / Casters
 
 You can watch the stream in your preferred media player, so long as it supports RTMP streams! The most common client used for this purpose is VLC.
@@ -71,3 +73,5 @@ However we do recommend the key settings per the below:
 | 1920 x 1080 | 30  | 4500           |
 | 1280 x 720  | 60  | 4500           |
 | 1280 x 720  | 30  | 3000           |
+
+Additionally, if you are using our synchronised playback you should ensure that your keyframe interval is set to 2 seconds. Not doing so will result in viewers with less reliable internet connections seeing buffering and interruptions.
