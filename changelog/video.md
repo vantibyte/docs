@@ -3,6 +3,14 @@ title: Video
 parent: Changelog
 ---
 
+## 2023-08-14
+
+SRT relays available to all
+
+## 2023-02-02
+
+Initial closed beta of SRT relays
+
 ## 2021-03-13
 
 Rename "RTMP" to "Video" to reflect our upcoming features
