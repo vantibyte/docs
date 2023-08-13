@@ -3,6 +3,10 @@ title: Discord
 parent: Changelog
 ---
 
+## 2023-07-18
+
+Remove support for Discord user discriminators following Discord API changes. (You will be missed..)
+
 ## 2021-02-14
 
 Added the new `.teamcode` and `.team` commands, allowing team members to generate a single-use code that can be shared with others to gain access to their relevant channel, without requiring Vantibyte staff.
