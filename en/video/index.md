@@ -22,7 +22,7 @@ To stream to our service, you need to have each of the following:
 Invidually these don't mean much, but altogether these form the **Server** and **Stream Key** that you need for your broadcasting tool (like OBS), which will look like the following for RTMP:
 
 ```text
-Server: rtmp://{ingest}.rtmp.vantibyte.com/live/
+Server: rtmp://{ingest}.video.vantibyte.com/live/
 Stream Key: {streamname}:{streamauth}
 ```
 
@@ -52,7 +52,7 @@ You can watch the stream in your preferred media player, so long as it supports 
 Open a stream, and enter the URL in the following format:
 
 ```text
-rtmp://{ingest}.rtmp.vantibyte.com/{application}/{streamname}
+rtmp://{ingest}.video.vantibyte.com/{application}/{streamname}
 srt://{ingest}.video.vantibyte.com:{port}?streamid=play/{streamname}
 ```
 
